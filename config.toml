@@ -1,0 +1,28 @@
+baseURL = 'http://peopleware.ir/'
+languageCode = 'en-us'
+title = 'انسان‌افزار'
+theme = 'hugo-book'
+
+
+defaultContentLanguage = 'en'
+[languages]
+  [languages.en]
+    languagedirection = 'rtl'
+
+[markup.goldmark.renderer]
+unsafe= true
+
+[params]
+  # (Optional, default light) Sets color theme: light, dark or auto.
+  # Theme 'auto' switches between dark and light modes based on browser/os preferences
+  BookTheme = 'auto'
+
+  # (Optional, default true) Controls table of contents visibility on right side of pages.
+  # Start and end levels can be controlled with markup.tableOfContents setting.
+  # You can also specify this parameter per page in front matter.
+  BookToC = true
+
+  # (Optional, default docs) Specify root page to render child pages as menu.
+  # Page is resoled by .GetPage function: https://gohugo.io/functions/getpage/
+  # For backward compatibility you can set '*' to render all sections to menu. Acts same as '/'
+  BookSection= 'chapters'

@@ -1,0 +1,84 @@
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltip-text {
+  visibility: hidden;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  min-width: 150%;
+  bottom: 100%;
+  right: -25%;
+}
+
+.tooltip .tooltip-text::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}
+
+.tooltip:hover .tooltip-text {
+  visibility: visible;
+}
+
+.markdown {
+
+  h1,
+  h2 {
+    font-weight: 700;
+  }
+
+  blockquote {
+    width: 80%;
+    margin: 10px auto;
+    color: #555555;
+    border-inline-start: $padding-8 solid #78C0A8;
+    position: relative;
+    padding-right: 40px;
+    background-color: hsla(0, 0%, 52%, .1);
+
+    :first-child {
+      margin-top: unset;
+    }
+
+    :last-child {
+      margin-bottom: unset;
+    }
+
+    span:first-child {
+      display: block;
+      color: #333333;
+      font-style: normal;
+      font-weight: bold;
+      margin-top: 1em;
+    }
+
+  }
+
+  blockquote::before {
+    font-family: Arial;
+    content: "\201D";
+    color: #78C0A8;
+    font-size: 4em;
+    position: absolute;
+    right: 10px;
+    top: -0.5em;
+  }
+
+  blockquote::after {
+    content: '';
+  }
+}
