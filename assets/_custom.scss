@@ -1,3 +1,13 @@
+:root {
+    --gray-800: #555
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --gray-800: rgba(255, 255, 255, 0.8)
+  }
+}
+
 .tooltip {
   position: relative;
   display: inline-block;
@@ -45,11 +55,11 @@
   blockquote {
     width: 80%;
     margin: 10px auto;
-    color: #555555;
+    color: var(--gray-800);
     border-inline-start: $padding-8 solid #78C0A8;
     position: relative;
     padding-right: 40px;
-    background-color: hsla(0, 0%, 52%, .1);
+    background-color: var(--gray-200);
 
     :first-child {
       margin-top: unset;
@@ -61,7 +71,7 @@
 
     span:first-child {
       display: block;
-      color: #333333;
+      color: var(--body-font-color);
       font-style: normal;
       font-weight: bold;
       margin-top: 1em;
@@ -82,4 +92,8 @@
   blockquote::after {
     content: '';
   }
+}
+
+body {
+  font-family: 'Vazir', sans-serif;
 }
