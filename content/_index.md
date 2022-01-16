@@ -27,4 +27,6 @@ title: انسان‌افزار
 <--->
 {{< figure src="cover.jpg" alt="Peopleware (3rd edition)" >}}
 
+{{< button relref="preface.md" >}}شروع مطالعه{{</ button>}}
+
 {{</ columns >}}

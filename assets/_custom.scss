@@ -42,8 +42,10 @@
   border-color: black transparent transparent transparent;
 }
 
-.tooltip:hover .tooltip-text {
-  visibility: visible;
+@media(hover: hover) and (pointer: fine) {
+  .tooltip:hover .tooltip-text {
+    visibility: visible;
+  }
 }
 
 h1,
@@ -55,7 +57,7 @@ h2 {
   line-height: 1.7;
 }
 
-a.support-btn {
+a.book-btn {
   display: inline-block;
   font-size: $font-size-14;
   color: var(--color-link);
@@ -66,11 +68,16 @@ a.support-btn {
   cursor: pointer;
   width: 100%;
   text-align: center;
-  margin-top: 2em;
+  margin-top: .5em;
 
   &:hover {
     text-decoration: none;
   }
+}
+
+a.book-btn.gray {
+  color: var(--gray-500);
+  border-color: var(--gray-500);
 }
 
 .markdown {
