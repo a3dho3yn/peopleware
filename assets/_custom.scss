@@ -51,6 +51,28 @@ h2 {
   font-weight: 700;
 }
 
+.book-menu a {
+  line-height: 1.7;
+}
+
+a.support-btn {
+  display: inline-block;
+  font-size: $font-size-14;
+  color: var(--color-link);
+  line-height: $padding-16 * 2.5;
+  padding: 0 $padding-16;
+  border: $padding-1 solid var(--color-link);
+  border-radius: $border-radius;
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+  margin-top: 2em;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
 .markdown {
   line-height: 2;
 
