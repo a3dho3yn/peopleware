@@ -1,5 +1,5 @@
 :root {
-    --gray-800: #555
+  --gray-800: #555
 }
 
 @media (prefers-color-scheme: dark) {
@@ -44,6 +44,11 @@
   visibility: visible;
 }
 
+h1,
+h2 {
+  font-weight: 700;
+}
+
 .markdown {
   line-height: 2;
 
@@ -69,7 +74,7 @@
       margin-bottom: unset;
     }
 
-    span:first-child {
+    span:not(.tooltip-text, .tooltip) {
       display: block;
       color: var(--body-font-color);
       font-style: normal;
@@ -92,8 +97,4 @@
   blockquote::after {
     content: '';
   }
-}
-
-body {
-  font-family: 'Vazir', sans-serif;
 }
