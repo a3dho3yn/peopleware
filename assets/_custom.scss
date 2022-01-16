@@ -99,4 +99,12 @@ h2 {
   blockquote::after {
     content: '';
   }
+
+  em {
+    display: block;
+    width: 75%;
+    margin: 10px auto;
+    font-weight: 600;
+    position: relative;
+  }
 }
