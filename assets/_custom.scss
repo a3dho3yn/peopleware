@@ -16,7 +16,7 @@
   display: inline-block;
   line-height: 1;
   position: relative;
-  border-bottom: 1px dotted black;
+  border-bottom: 1px dashed black;
 
 
   &::after {
@@ -34,7 +34,8 @@
     text-transform: none;
     transition: opacity .2s;
     visibility: hidden;
-    white-space: nowrap;
+    width: max-content;
+    max-width: 300%;
     z-index: 1;
   }
 
@@ -60,14 +61,14 @@
   }
 
   &:hover::after,
-  &[class*=tooltip-]:hover::before {
+  &[class=tooltip]:hover::before {
     visibility: visible;
     opacity: 1;
   }
 
   @media (pointer: coarse), (hover: none) {
-    &:active::after,
-    &[class*=tooltip-]:active::before {
+    &:focus::after,
+    &[class=tooltip]:focus::before {
       visibility: visible;
       opacity: 1;
     }
@@ -80,14 +81,12 @@ h2 {
 }
 
 .page-navigation {
-  position: absolute;
-  bottom: 2em;
-  left: 1em;
-  max-width: 80%;
-  line-height: 3em;
+  height: 3em;
+  line-height: 1.5;
 }
 
 .page-navigation a {
+  max-width: 80%;
   display: inline-block;
 }
 
@@ -150,7 +149,6 @@ a.book-btn.gray {
       font-weight: bold;
       margin-top: 1em;
     }
-
   }
 
   blockquote::before {
