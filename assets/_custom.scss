@@ -60,18 +60,10 @@
     transform: translate(-50%);
   }
 
-  &:hover::after,
-  &[class=tooltip]:hover::before {
+  &.active::after,
+  &[class=tooltip].active::before {
     visibility: visible;
     opacity: 1;
-  }
-
-  @media (pointer: coarse), (hover: none) {
-    &:focus::after,
-    &[class=tooltip]:focus::before {
-      visibility: visible;
-      opacity: 1;
-    }
   }
 }
 
@@ -87,6 +79,7 @@ h2 {
 
 .page-navigation a {
   max-width: 80%;
+  font-size: 1rem;
   display: inline-block;
 }
 

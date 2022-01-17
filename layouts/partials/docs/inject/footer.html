@@ -3,3 +3,12 @@
 <a href="{{ .Permalink | relURL }}"> {{ .Title }} ◀︎ </a>
 </div>
 {{end}}
+
+<script>
+function showTooltip(el) {
+    el.classList.add("active");
+}
+function hideTooltip(el) {
+    el.classList.remove("active");
+}
+</script>
