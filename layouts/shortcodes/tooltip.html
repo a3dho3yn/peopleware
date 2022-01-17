@@ -1,6 +1,4 @@
 {{- $text := .Get "text" -}}
 {{- $note := .Get "note" -}}
 
-<span class="tooltip">{{- $text -}}
-    <span class="tooltip-text">{{- $note -}}</span>
-</span>
+<span class="tooltip-top" data-tooltip="{{- $note -}}">{{- $text -}}</span>
