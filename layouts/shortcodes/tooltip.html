@@ -1,4 +1,4 @@
 {{- $text := .Get "text" -}}
 {{- $note := .Get "note" -}}
 
-<span class="tooltip" data-tooltip="{{- $note -}}" ontouch="toggleTooltip(this)">{{- $text -}}</span>
+<span class="tooltip" data-tooltip="{{- $note -}}" ontouchend="toggleTooltip(this)">{{- $text -}}</span>
