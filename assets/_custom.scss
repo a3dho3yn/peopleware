@@ -16,7 +16,7 @@
   display: inline-block;
   line-height: 1;
   position: relative;
-  border-bottom: 1px dashed black;
+  border-bottom: 1px dashed var(--body-font-color);
 
 
   &::after {
@@ -61,7 +61,9 @@
   }
 
   &.active::after,
-  &[class=tooltip].active::before {
+  &.tooltip.active::before,
+  &:hover::after,
+  &.tooltip:hover::before {
     visibility: visible;
     opacity: 1;
   }
