@@ -1,6 +1,6 @@
 ---
 title: '۱. امروز در جایی، پروژه‌ای در حال شکست خوردن است.'
-type: chapter
+slug: a-project-is-failing
 weight: 4
 ---
 

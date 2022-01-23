@@ -1,5 +1,6 @@
 ---
 title: '۲. چیزبرگر بساز، چیزبرگر بفروش'
+slug: make-cheeseburger-sell-cheeseburger
 weight: 5
 ---
 

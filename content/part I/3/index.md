@@ -1,6 +1,6 @@
 ---
 title: '۳. ویَن منتظر شماست'
-type: chapter
+slug: vienna-waits-for-you
 weight: 6
 ---
 

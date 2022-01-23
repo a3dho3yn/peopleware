@@ -1,6 +1,6 @@
 ---
 title: '۵. بازنگری قانون پارکینسون'
-type: chapter
+slug: parkinson-law-revisited
 weight: 8
 ---
 

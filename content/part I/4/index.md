@@ -1,6 +1,6 @@
 ---
 title: '۴. کیفیت، اگر وقت شد'
-type: chapter
+slug: quality-if-time-permits
 weight: 7
 ---
 

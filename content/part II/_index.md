@@ -1,6 +1,5 @@
 ---
 title: 'بخش دوم: محیط کار'
-type: part
 weight: 10
 ---
 

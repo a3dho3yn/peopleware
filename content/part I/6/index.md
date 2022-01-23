@@ -1,6 +1,6 @@
 ---
 title: ۶. لائتریل
-type: chapter
+slug: laetrile
 weight: 9
 ---
 

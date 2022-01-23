@@ -1,6 +1,6 @@
 ---
 title: '۷. پلیس وسایل'
-type: chapter
+slug: furniture-police
 weight: 11
 ---
 
