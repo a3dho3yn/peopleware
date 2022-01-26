@@ -88,4 +88,4 @@ IBM پیش از ترسیم نقشه‌های مجموعه‌ی سانتا ترز
 
 <!-- footnotes -->
 [^1]:
-    ج. مک‌کیو. (۱۹۷۸). «آزمایشگاه سانتا ترزای IBM». ژورنال سیستم‌های IBM. ۱۷(۱). ۳۲۰-۳۴۱.
+    G. McCue, “IBM’s Santa Teresa Laboratory,” IBM Systems Journal, Vol. 17, No. 1 (1978), pp. 320–41.

@@ -118,4 +118,4 @@ weight: 12
 <!--- Footnotes --->
 
 [^1]:
-    میلز، بهره‌وری نرم‌افزار (نیویورک: انتشارات Dorset House، سال ۱۹۹۸)، ص. ۲۶۶.
+    H. D. Mills, Software Productivity (New York: Dorset House Publishing, 1988), p. 266.

@@ -64,4 +64,4 @@ weight: 7
 
 <!----- Footnotes -------->
 [^1]:
-    <small>تاجیما و ماتسوبارا، درون صنعت نرم‌افزار ژاپنی، کامپیوتر، شماره ۱۷ (مارس ۱۹۸۴)، صفحه ۴۰</small>
+    D. Tajima and T. Matsubara, “Inside the Japanese Software Industry,” Computer, Vol. 17 (March 1984), p. 40.
