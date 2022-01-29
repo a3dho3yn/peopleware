@@ -1,6 +1,15 @@
 ---
 title: ''
 weight: 1
+description: 'نرجمه‌ی کتاب Peopleware (انسان‌افزار)'
+tags: 
+  - peopleware
+  - management
+  - project management
+  - software project management
+  - مدیریت
+  - مدیریت پروژه
+  - مدیریت پروژه‌های نرم‌افزاری
 ---
 
 {{< columns >}}
