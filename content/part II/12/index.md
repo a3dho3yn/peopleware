@@ -1,6 +1,6 @@
 ---
 title: '۱۲. در را بازگردانید'
-slug: brigh-back-the-door
+slug: bring-back-the-door
 weight: 17
 ---
 
