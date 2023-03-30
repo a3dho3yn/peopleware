@@ -2,6 +2,7 @@ baseURL = 'https://peopleware.ir/'
 languageCode = 'fa-IR'
 title = 'انسان‌افزار'
 theme = 'hugo-book'
+
 enableRobotsTXT = true
 
 defaultContentLanguage = 'fa'
@@ -16,6 +17,9 @@ unsafe= true
   startLevel = 1
 
 [params]
+  # OpenGraph meta data
+  images = ['cover.png']  
+
   # (Optional, default light) Sets color theme: light, dark or auto.
   # Theme 'auto' switches between dark and light modes based on browser/os preferences
   BookTheme = 'auto'
@@ -45,3 +49,6 @@ unsafe= true
   # Index is built on fly, therefore it might slowdown your website.
   # Configuration for indexing can be adjusted in i18n folder per language.
   BookSearch = false
+
+[taxonomies]
+  series= 'series'
