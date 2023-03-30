@@ -2,7 +2,7 @@ baseURL = 'https://peopleware.ir/'
 languageCode = 'fa-IR'
 title = 'انسان‌افزار'
 theme = 'hugo-book'
-
+enableRobotsTXT = true
 
 defaultContentLanguage = 'fa'
 [languages]
