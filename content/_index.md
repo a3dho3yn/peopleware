@@ -22,7 +22,7 @@ tags:
 **مترجمان:** \
 [حسین طالقانی](https://a3dho3yn.ir) - [سپیده رحمانی](https://www.linkedin.com/in/sepideh-rahmani-535927a6/)
 
-{{< figure src="/cover.png" alt="Peopleware (3rd edition)" >}}
+{{< figure src="/cover.webp" alt="Peopleware (3rd edition)" >}}
 
 <--->
 
